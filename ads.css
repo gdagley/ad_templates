@@ -1,0 +1,56 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title  : Standard Ad Templates
+Author : Geoffrey Dagley
+URL    : http://www.mckinneystation.com
+
+Description : Making it easy to mockup where ads will go on a site.
+
+Based on http://www.simplygraphix.com/banners_sizes.html
+
+<div class="ads vertical_banner">
+  Ads go here.
+</div>
+
+- - - - - - - - - - - - - - - - - - - - - */
+.ads {
+  color: #FFF;
+  background-color: #EF7B08;
+  text-align: center;
+}
+.ads.full_banner {
+  width: 468px;
+  height: 60px;
+}
+.ads.full_banner_nav {
+  width: 392px;
+  height: 72px;
+}
+.ads.vertical_banner {
+  width: 120px;
+  height: 240px;
+}
+.ads.button_1 {
+  width: 120px;
+  height: 90px;
+}
+.ads.button_2 {
+  width: 120px;
+  height: 60px;
+}
+.ads.micro_button {
+  width: 88px;
+  height: 31px;
+}
+.ads.vertical_tower {
+  width: 160px;
+  height: 600px;
+}
+.ads.half_banner {
+  width: 234px;
+  height: 60px;
+}
+.ads.square_button {
+  width: 125px;
+  height: 125px;
+}
