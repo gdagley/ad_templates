@@ -18,6 +18,10 @@ Based on http://www.simplygraphix.com/banners_sizes.html
   background-color: #EF7B08;
   text-align: center;
 }
+.ads.leaderboard {
+  width: 728px;
+  height: 90px;
+}
 .ads.full_banner {
   width: 468px;
   height: 60px;
