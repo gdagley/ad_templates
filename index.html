@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>CSS Templates for Ads</title>
+    <link rel="stylesheet" href="ads.css" type="text/css" media="screen" />
+    <style type="text/css" media="screen">
+      #index { width: 760px; font-size: 14px; }
+      .ads { float: left; margin: 1em; }
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        types = [ "leaderboard", 
+                  "vertical_tower", 
+                  "full_banner", 
+                  "vertical_banner", 
+                  "full_banner_nav", 
+                  "half_banner", 
+                  "square_button", 
+                  "button_1", 
+                  "button_2",
+                  "micro_button"];
+        jQuery.each(types, function() {
+          $('#index').append("<div class='ads " + this + "'>" + this + "</div>");
+        });
+        $('.ads').each(function() {
+          ad = $(this);
+          ad.append('<br/>' + ad.height() + 'x' + ad.width());
+        });
+      });
+    </script>
+  </head>
+  <body id="index">
+    <h1>CSS Templates for Ads</h1>
+  </body>
+</html>
