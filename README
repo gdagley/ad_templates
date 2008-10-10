@@ -1,0 +1,9 @@
+Making it easy to mockup where ads will go on a site.
+ 
+Based on http://www.simplygraphix.com/banners_sizes.html
+ 
+<div class="ads vertical_banner">
+  Ads go here.
+</div>
+ 
+See the examples at http://www.mckinneystation.com/ad_templates/index.html
